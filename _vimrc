@@ -71,7 +71,7 @@ set hlsearch
 colorscheme wombat 
 
 syntax on
-set number
+"set number
 set title
 set ruler
 
