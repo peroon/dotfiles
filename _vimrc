@@ -1,7 +1,14 @@
-"addon easy management 
+"Bundle (addon easy management)
+"
+set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+
+"set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/dotfiles/vimfiles/vundle.git/
+
 call vundle#rc()
+
+"Import Plugin
 Bundle 'gmarik/vundle'
 Bundle 'rails.vim'
 Bundle 'Shougo/neocomplcache'
